@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario HTML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" crossorigin="anonymous">
+</head>
+  <body>
+    <div class="card m-5">
+        <div class="card-header">
+          Payment form example
+        </div>
+        <div class="card-body">
+            <div class="alert alert-danger" role="alert">
+                Some fields are missing
+              </div>
+              <!--Primera fila-->
+              <div class="row m-">
+                <div class="col-5">
+                    <label for="exampleFormControlInput1" class="form-label">Card #</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="XXXXXXXXXXXXXXXX" maxlength="16" minlength="16">
+                </div>
+                <div class="col-3">
+                    <label for="exampleFormControlInput1" class="form-label">CVC #</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="0000" maxlength="4" minlength="4">
+                </div>
+                <div class="col-4">
+                    <label for="exampleFormControlInput1" class="form-label">Amount</label>
+                <div class="input-group col-4">
+                    <span class="input-group-text" id="addon-wrapping">@</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                 </div>
+                </div>
+                <!--Segunda fila-->
+                <div class="row mt-2">
+                    <div class="col-6">
+                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="col-6">
+                        <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                </div>
+                <!--Tercera fila-->
+                <div class="row mt-2">
+                    <div class="col-6">
+                        <label for="exampleFormControlInput1" class="form-label">City</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="col-3">
+                        <label for="validationCustom04" class="form-label">State</label>
+                        <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Pick a state</option>
+                        <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <label for="exampleFormControlInput1" class="form-label">City</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                </div>
+                <!--Cuarta fila-->
+                <div class="row mt-2">
+                    <div class="col-6">
+                     <div>
+                        <label for="exampleFormControlInput1" class="form-label">We accept:</label>
+                     </div>
+                     <div class="col-5 ps-1 rounded bg-secondary d-inline-flex p-2">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-mastercard fa-lg" style="color: #ffffff;"></i></label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-visa fa-lg" style="color: #ffffff;"></i></label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+                            <label class="form-check-label" for="inlineRadio3"><i class="fa-brands fa-cc-diners-club fa-lg" style="color: #ffffff;"></i></label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4" >
+                            <label class="form-check-label" for="inlineRadio4"><i class="fa-brands fa-cc-amex fa-lg" style="color: #ffffff;"></i></label>
+                          </div>
+                     </div>
+                    </div>
+                    <div class="col-6">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div id="passwordHelpBlock" class="form-text">
+                            Add any notes here
+                          </div>
+                      </div>
+                </div>
+              </div>
+        
+        <div class="card-footer text-end">
+            <a href="#" class="btn btn-secondary">Cancel</a>
+            <a href="#" class="btn btn-primary">Send</a>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
